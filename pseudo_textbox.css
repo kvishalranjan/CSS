@@ -1,0 +1,53 @@
+input:enabled
+{
+    background-color: lightpink;
+}
+
+/* for enabled textbox - input[type-text]:enabled */
+
+input[type=email]:invalid,input[type=url]:invalid /*if an invalid is entered*/
+{
+    background-color: lightblue;
+    border:2px solid red
+}
+
+input[type=email]:valid,input[type=url]:valid /*if an valid is entered,it overrides input enabled*/
+{
+    background-color: yellow;
+    
+}
+
+input[type='text']:read-only
+{
+    background-color: greenyellow;
+    border:2px solid blue;
+}
+
+input[type='text']:disabled
+{
+    background-color: lightgrey;
+    border:2px solid black;
+}
+
+input[type='submit']:hover
+{
+    text-decoration: underline;
+    font-weight: bold;
+    color: purple;
+    background-color: goldenrod;
+}
+
+input[type=text]:read-write /*works with only those textbox that do not have readonly attribute*/
+{
+    background-color: coral;
+}
+
+input[type=text]:optional /*works with only those textbox that do not have required attribute*/
+{
+    background-color: olive;
+}
+
+input[type=text]:required /*works with only those textbox that required attribute*/
+{
+    background-color: lightseagreen;
+}

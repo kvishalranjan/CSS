@@ -1,0 +1,70 @@
+.static
+{
+    position: static; /*default position of each html element*/
+    top: 50px;
+    left: 30px;
+    right: 20px;
+    bottom: 40px;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(5, 182, 252, 0.541);
+    color: red;
+    font-size: 18pt;
+    font-weight: 800;
+}
+
+.relative
+{
+     position: relative; 
+    top: 80px;
+    left: 30px;
+    right: 30px;
+    width: 70%;
+    height: 300px;
+    background-color: olivedrab;
+    color: purple;
+    font-size: 18pt;
+    font-weight: 800; 
+}
+
+.fixed
+{
+    position: fixed; 
+    top: 260px;
+    left: 50px;
+    right: 0;
+    width: 350px;
+    height: auto;
+    background-color: cyan;
+    color: purple;
+    border: thin solid red;
+    font-size: 18pt;
+    font-weight: 800; 
+}
+
+.absolute
+{
+    position: absolute; 
+    top: 60px;
+    left: 90px;
+    right: 5px;
+    width: 70%;
+    height: 100px;
+    background-color: darkkhaki;
+    color: purple;
+    font-size: 18pt;
+    font-weight: 800; 
+}
+
+.sticky
+{
+    position: sticky; 
+    top: 10px;
+    left: 100px;
+    width: 70%;
+    height: auto;
+    background-color: rgb(202, 205, 50);
+    color: indigo;
+    font-size: 18pt;
+    font-weight: 800;  
+}

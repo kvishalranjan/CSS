@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pseudo_firstchild.css"
+</head>
+<body>
+    <div class="first">
+    <h1>This example uses first-of-type</h1>
+    <div>
+        This is first div 
+        <p>This is first paragraph-It uses first-of-type</p>
+        <p>This is second paragraph</p>
+    </div>
+    <div>
+        This is second div 
+        <h1>This is heading 1</h1>
+        
+        <p>This is first paragraph-It uses first-of-type</p>
+        <p>This is second paragraph</p>
+    </div></div>
+    <br><br>
+    <div class="last">
+        <h1>This example uses last-of-type,that selects every last paragraph</h1>
+        <div>
+        This is first div 
+        <p>This is first paragraph</p>
+        <p>This is second paragraph</p>
+        <p>This is third and last paragraph</p>
+    </div>
+    <br>
+    <div>
+        This is second div 
+        <p>This is first paragraph</p>
+        <p>This is second paragraph</p>
+        <p>This is third paragraph</p>
+        <img src="/img/pyramid.jpg" width="300" height="300">
+        <p>This is last paragraph</p>
+    </div>
+</div>
+<br><br>
+<div class="only">
+    <h1>This example uses only-of-type. This work when there is no sibling of child element</h1>
+    <div>
+        This works when there is no sibling(same element) of image<br>
+        <img src="/img/taj_mahal.jpg">
+        
+    </div>
+    <div>
+        This will not work as there are more than 1 image<br>
+        <img src="/img/taj_mahal.jpg"><br>
+        <img src="/img/taj_mahal.jpg"><br>
+        <img src="/img/taj_mahal.jpg"><br>
+    </div>
+</div> <!--only ends-->
+
+</body>
+</html>

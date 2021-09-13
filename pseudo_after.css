@@ -1,0 +1,16 @@
+
+/* after pseudoelement */
+#afterh1::after
+{
+    content:url('/img/blinking_icon1.gif');
+}
+
+#afterp::after
+{
+    content:url('/img/blinking_icon1.gif');
+}
+
+#aftera::after
+{
+    content: url('/img/blinking_icon1.gif');
+}

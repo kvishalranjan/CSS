@@ -1,0 +1,70 @@
+*
+{
+    font-size: 18pt;
+}
+ol
+{
+    list-style-type: decimal-leading-zero;
+    
+}
+
+ul
+{
+    list-style-type: armenian;
+}
+
+p
+{
+    color: indigo;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li
+{
+    color: rgb(252, 86, 45);
+    font-weight: bolder;
+}
+
+#listimage
+{
+    list-style-image: url('/img/bullet1.png');
+}
+
+#inside
+{
+    border: thick solid red;
+    background-color: lemonchiffon;
+    list-style-position: inside;
+}
+
+#inside li{
+    border: thin solid blue;
+    background-color: pink;
+}
+
+#outside
+{
+    border: thick solid red;
+    background-color: lightskyblue;
+    list-style-position: outside;
+}
+
+#outside li{
+    border: thin solid blue;
+    background-color: greenyellow;
+}
+
+#shortul
+{
+    list-style: circle outside url(/img/bullet1.png);
+    border: thick solid red;
+    background-color: lightskyblue;
+    list-style-position: outside;
+}
+
+#shortul li
+{
+    border: thin solid blue;
+    background-color: rgb(110, 225, 233);
+}

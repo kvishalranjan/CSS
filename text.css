@@ -1,0 +1,36 @@
+h1
+{
+    color: blue;
+    /*color:rgb(0,0,200);
+    /*color:#000ff*/
+    background-color: rgb(218, 248, 85);
+}
+
+p
+{
+    color: red;
+    text-align: center;
+    line-height: 25px; /*to increase space between lines*/
+    text-indent: 45px; /*to indent te first line text*/
+    word-spacing: 10px;  /*to set the space between words*/ 
+    letter-spacing: 4px;/*to give space between letters*/
+    white-space: normal;
+}
+
+.shadow
+{
+    color: green;
+    font-size: 14pt;
+    text-shadow: 10px 10px 2px black; /* 10px horizontal 10px vertical 2px blur radius black color of shadow*/
+}
+
+.deco
+{
+    color: green;
+    font-size: 14pt;
+    text-decoration-color: blue;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    /* shorthand property of text- decoration */
+    /* text-decoration: dashed blue underline; */
+}

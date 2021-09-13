@@ -1,0 +1,36 @@
+h2.ques
+{
+    color: indigo;
+    font-style: italic;
+    text-decoration: underline;
+    background-color: lawngreen;
+    font-size: 35pt;
+}
+
+h3.ans
+{
+    color: red;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+em
+{
+    text-decoration: underline;
+    background-color: rgb(231, 245, 33);
+}
+
+#image1 /*will be applicable where id is mentioned as image1 on any html tag*/
+{
+    border: thick solid rgb(21, 255, 0);
+}
+
+img#image2 /* will be apllicable where id as image2 is used on img tag only*/
+{
+    border: thick dashed red;
+}
+
+#image3
+{
+    border: thick solid rgb(229, 255, 0);
+}

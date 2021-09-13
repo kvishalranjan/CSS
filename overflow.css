@@ -1,0 +1,78 @@
+#overflow
+{
+    padding: 10px;
+    width: 80%;
+    height: 110px;
+    background-color: coral;
+    color: blue;
+    text-align: justify;
+    font-size: 14pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: visible; /*default property of every element*/
+}
+
+#hidden
+{
+    padding: 10px;
+    width: 80%;
+    height: 110px;
+    background-color: lightgreen;
+    color: blue;
+    text-align: justify;
+    font-size: 14pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden; /*will hide the overflow part of element*/
+}
+
+#scroll
+{
+    padding: 10px;
+    width: 120%;
+    height: 110px;
+    background-color: lightsalmon;
+    color: blue;
+    text-align: justify;
+    font-size: 14pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: scroll;/*will scroll the content in the div to prevent from overflow*/   
+}
+
+#auto
+{
+    padding: 10px;
+    width: 80%;
+    height: 200px;
+    background-color: lightseagreen;
+    color: blue;
+    text-align: justify;
+    font-size: 14pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: auto;/*almost similar to overflow:scroll but will add scrollbar if necessary,*/ 
+    /*if contents gets fit in container, scrollbar in overflow:auto might not add*/  
+}
+
+#overflow_x
+{
+    padding: 10px;
+    width: 100px;
+    height: 110px;
+    background-color: lightseagreen;
+    color: blue;
+    text-align: justify;
+    font-size: 14pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    overflow-x: scroll;
+}
+
+#overflow_y
+{
+    padding: 10px;
+    width: 200px;
+    height: 60px;
+    background-color: lightcoral;
+    color: blue;
+    text-align: justify;
+    font-size: 14pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    overflow-y: scroll;  
+}

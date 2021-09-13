@@ -1,0 +1,15 @@
+body
+{
+    background-image: url('/img/pattern1.jpg');
+    /*background-repeat: no-repeat;*/
+    /*to repeat an image vertically*/
+    /*background-repeat: repeat-y;*/
+    /*to repeat an image horizontally*/
+    /*background-repeat: repeat-y;*/
+    /*to repeat an image vertically*/
+    /*background-repeat: space;*/
+    /*to add space between repeated images*/
+    /*background-repeat: round;*/
+    /*to make repeating image stretch*/
+    background-repeat: round;
+}       

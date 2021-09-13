@@ -1,0 +1,13 @@
+h1
+{
+    color: indigo;
+    font-style: italic;
+    text-decoration: underline;
+    background-color: lawngreen;
+}
+
+p
+{
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,55 @@
+*
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px;
+    color: blueviolet;
+}
+
+
+
+
+div
+{
+    border: thick solid red;
+}
+
+h1 /* will apply only where h1 is */
+{
+    color: blue;
+}
+
+div h1 /* means h1 is child element of div i.e. h1 is inside div element */
+{
+    color: green;
+}
+
+h1 em
+{
+    text-decoration: yellow underline;
+}
+
+div .para1 /*will apply class para1 */
+{
+    color: tomato;
+}
+
+/*--------------------using parent elements id with child elment as descendant -----*/
+
+#china h1
+{
+    color: indianred;
+    
+}
+
+#china
+{
+    text-align: center;
+}
+
+#china p
+{
+    text-align: justify;
+    color: lightpink;
+    font-size: 15pt;
+    background-color: teal;
+}

@@ -1,0 +1,39 @@
+#first
+{
+    top: 20px;
+    position: relative;
+    left: 40px;
+    height: 250px;
+    width: 400px;
+    background-color: blue;
+    color: white;
+    border: thick solid black;
+    z-index: 1;
+}
+
+#second
+{
+    top: 40px;
+    left: 50px;
+    height: 250px;
+    width: 400px;
+    background-color: rgb(151, 63, 1);
+    color: white;
+    border: thick solid black;
+    z-index: 2;
+}
+
+#third
+{
+    height: 250px;
+    width: 400px;
+    background-color: yellow;
+    color: white;
+    border: thick solid black;
+    z-index: 3;
+}
+
+#second,#third
+{
+    position: absolute;
+}

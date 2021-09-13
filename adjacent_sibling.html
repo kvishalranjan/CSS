@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p
+        {
+            background-color: lightblue;
+            color: blue;
+            font: 14pt 'Arial';
+            border: thick solid green;
+        }
+       
+        img
+        {
+            width: 300px;
+            height: 300px;
+        }
+        img+p
+        {
+            background-color: lightgreen;
+            color: red;
+            font: 14pt 'Arial';
+            border: thick solid purple;
+        }
+       
+    </style>
+</head>
+<body>
+    <h2>Adjacent Sibling(+)-Every paragrpah element immediately(adjacent to image) after image will be affected</h2>
+    <p>This pargraph is before image</p>
+    <p>This pargraph is before image</p>
+    <p>This pargraph is before image</p>
+    <img src="/img/pyramid.jpg">
+    <p>This pargraph is immediately(adjacent to image) after image.So it will be affected</p>
+    <p>This pargraph is after image</p>
+    <p>This pargraph is after image</p>
+    <p>This pargraph is after image</p>
+    <img src="/img/pyramid.jpg">
+    <p>This pargraph is immediately(adjacent to image) after image.So it will be affected</p>
+    <p>This pargraph is after image</p>
+    <p>This pargraph is after image</p>
+    <p>This pargraph is after image</p>
+</body>
+</html>

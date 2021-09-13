@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div,h1,p
+        {
+            background-color: lightcoral;
+            border: thick solid blue;
+        }
+        img
+        {
+            width: 300px;
+            height: 300px;
+        }
+        img~p
+        {
+            background-color: lightgreen;
+            color: red;
+            font: 14pt 'Arial';
+            border: thick solid green;
+        }
+        div p
+        {
+            background-color: lightskyblue;
+            color: purple;
+            font: 14pt 'Arial';
+            border: thick solid olive;
+        }
+    </style>
+</head>
+<body>
+    <h2>General Sibling(~)Every paragraph (sibling only)before or after image is affected</h2>
+    <h1>This heading is child of body,but sibling of p,div,img </h1>
+    <p>This paragraph is child of body,but sibling of h1,div,img.it is unaffected as it is comes before first image </p>
+    <img src="/img/pyramid.jpg">
+    <div>
+        This div is child of body,but sibling of p,div,img
+        <p>This paragraph is child of div</p>
+    </div>
+    <p>This paragraph is child of body but sibling of h1,div,img.it is affected as it is after first image</p>
+    <p>This paragraph is child of body but sibling of h1,div,img.it is affected as it is after first image </p>
+    <img src="/img/pyramid.jpg">
+    <p>This paragraph is child of body but sibling of h1,div,img.it is affected as it is after second image </p>
+</body>
+</html>

@@ -1,0 +1,24 @@
+/* to give background image in web document ib body tag*/
+body
+{
+    background-image: url('/img/machu_picchu.jpg');
+    
+}
+#div1
+{
+    height: 200px;
+    width: 100%;
+    background-color: #ff7f50;
+}
+#div,#div2 p /*using group selector*/
+{
+    background-color: #00ffff;
+    color: #ff0000;
+}
+
+#div2
+{
+    height:400px;
+    width:100%;
+    background-image: url('/img/pie\ chart.png');
+}

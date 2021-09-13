@@ -1,0 +1,50 @@
+.sans
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sansserif
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mono
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cursive
+{
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+h1
+{
+    text-transform: capitalize;
+}
+.fstyle,.fvariant,.fweight,.fshort
+{
+    background-color: coral;
+    color: rgb(133, 5, 253);
+}
+
+p{
+    font-size: 16pt;
+    background-color: rgb(9, 235, 243);
+    color: red;
+}
+
+.fvariant p
+{
+    font-size: 16pt;
+    background-color: lightgreen;
+    color: purple;
+}
+
+.fshort p
+{
+    /* shorthand of font:font-style font-variant font-weight font-size font-family; */
+    font: italic small-caps bold 20pt 'Arial', sans-serif;
+    /* if we use line-height in shorthand property of font */
+    /* shorthand of font:font-style font-variant font-weight font-size/line-height font-family */
+}

@@ -1,0 +1,30 @@
+h1::before
+{
+    content:url('/img/blinking_icon1.gif');
+}
+
+p::before
+{
+    content:url('/img/blinking_icon1.gif');
+}
+
+a::before
+{
+    content: url('/img/blinking_icon1.gif');
+}
+
+/* after pseudoelement */
+#afterh1::after
+{
+    content:url('/img/blinking_icon1.gif');
+}
+
+#afterp::after
+{
+    content:url('/img/blinking_icon1.gif');
+}
+
+a::after
+{
+    content: url('/img/blinking_icon1.gif');
+}

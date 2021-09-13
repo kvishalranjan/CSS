@@ -1,0 +1,36 @@
+#div1
+{
+    background-image: url('/img/wallpaper1.jpg');
+    width:100%;
+    height: 300px;
+    /*background-position:right center*/
+    background-position: 50px 150px;
+}
+
+/* left top, left center,left bottom,right top, right center,right bottom,center top, center bottom, center center*/
+/* values can also be given 50% 50%,30% 60%  (first value is of x and second value is of y) */
+/* values can also be given in pixels like 20px 30px (first value is of x and second value is of y)*/
+table
+{
+    width: 100%;
+    border: thick solid black;
+    background-color: aquamarine;
+}
+
+tr
+{
+    height: 300px;
+    color: purple;
+    font-weight: bold;
+
+}
+
+td
+{
+    background-image: url('/img/smiley.png');
+    background-repeat: no-repeat;
+    border: solid red;
+    /* shorthand property of background */
+    /* background:background-image background-color background-repeat background-attachment background-poition */
+      /* example- background:blue url('smiley.jpg') no-repeat scroll center top */
+}

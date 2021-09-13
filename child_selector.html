@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div
+        {
+            background-color: orange;
+            border: thin solid green;
+        }
+        div>p
+        {
+            background-color: cadetblue;
+            color: blue;
+            font-size: 14pt;
+            border: thin solid red;
+        }
+       /* div p
+        {
+             background-color: ivory; will work only for those p element that are descendants 
+            color: green;
+            font-size: 14pt;
+            border: thin solid red;
+        }*/
+    </style>
+</head>
+<body>
+    <h1>Child selector works for those element that are child elements of a specific element</h1>
+    <p>this paragraph is child element of body,but sibling of div</p>
+    <p>this paragraph is child element of  body,but sibling of div</p>
+    <div>
+        <p>this paragraph is child element of div</p>
+        <p>this paragraph is child element of div</p>
+        <p>this paragraph is child element of div</p>
+        <h1>
+            this heading is inside of first div and is its child element
+            <p>this paragraph is child element of heading 1(child of first div)</p>
+        </h1>
+    </div>
+    <p>this paragraph is child element of body,but sibling of div</p>
+    <p>this paragraph is child element of body,but sibling of div</p>
+</body>
+</html>

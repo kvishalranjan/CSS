@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p
+        {
+            background-color: lightblue;
+            color: blue;
+            font: 14pt 'Arial';
+            border: thick solid green;
+        }
+       
+        div
+        {
+            background-color: lightblue;
+            color: blue;
+            font: 14pt 'Arial';
+            border: thick solid green;
+        }
+        div+h3
+        {
+            background-color: lightgreen;
+            color: red;
+            font: 14pt 'Arial';
+            border: thick solid purple;
+        }
+
+        p+h3
+        {
+            background-color: lightgreen;
+            color: red;
+            font: 14pt 'Arial';
+            border: thick solid purple;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Adjacent Sibling(+)-Every heading element immediately(adjacent to any element) after any element will be affected</h1>
+    <div> this is first division </div>
+    <h3>This heading is just afer division so it will be affected</h3>
+    <div>This is second division</div>
+    <p>This is second paragraph</p>
+    <p>this is third paragraph</p>
+    <h3>This heading is just afer paragraph so it will be affected</h3>
+    <p>this is last paragraph</p>
+    <div>this is last division</div>
+</body>
+</html>

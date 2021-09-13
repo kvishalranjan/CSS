@@ -1,0 +1,39 @@
+#a1,#a2,#a3
+{
+    background-color: cyan;
+    border: medium solid red;
+    color: purple;
+}
+
+#a1 h1
+{
+    background-color: coral;
+    
+}
+
+#a1 p
+{
+    background-color: coral;
+}
+
+#a2 table
+{
+    background-color: coral;
+    
+}
+img
+{
+    width: 300px;
+    height: 300px;
+}
+
+span
+{
+    background-color: coral;
+    
+}
+
+ol
+{
+    background-color: coral; 
+}

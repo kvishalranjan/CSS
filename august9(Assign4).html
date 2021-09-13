@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p
+        {
+            background-color: lightblue;
+            color: blue;
+            font: 14pt 'Arial';
+            border: thick solid green;
+        }
+       
+        div
+        {
+            background-color: lightblue;
+            color: blue;
+            font: 14pt 'Arial';
+            border: thick solid green;
+        }
+
+        h3
+        {
+            background-color: lightblue;
+            color: blue;
+            font: 14pt 'Arial';
+            border: thick solid green;
+        }
+        h3+p
+        {
+            background-color: lightgreen;
+            color: red;
+            font: 14pt 'Arial';
+            border: thick solid purple;
+        }
+
+        img+p
+        {
+            background-color: lightgreen;
+            color: red;
+            font: 14pt 'Arial';
+            border: thick solid purple;
+        }
+        img
+        {
+            width: 300px;
+            height: 300px;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Adjacent Sibling(+)-Every paragraph element immediately(adjacent to any element) after any element will be affected</h1>
+    <div> this is first division 
+        <h3>This is first heading inside this division</h3>
+        <p>this paragraph is just after the h3 element so it will be affected</p>
+        <h3>This is second heading inside this division</h3>
+        <p>this paragraph is just after the h3 element so it will be affected</p>
+        <p>this paragraph will not be affected</p>
+        <p>this paragraph will not be affected</p>
+    </div>
+    <h3>This heading element is inside body tag</h3>
+    <div>This is second division
+        <h3>This is first heading inside this division</h3>
+        <img src="/img/pyramid.jpg"><br>
+        <img src="/img/pyramid.jpg">
+        <p>this paragraph is just after the image so it will be affected</p>
+        <p>this paragraph will not be affected</p>
+        <p>this paragraph will not be affected</p>
+    </div>
+    <p>This is second paragraph</p>
+    <p>this is third paragraph</p>
+    <h3>This is last heading </h3>
+    <div>this is last division
+        <p>ths paragraph is not adjacent to any element so it will not be affected</p>
+        <img src="/img/pyramid.jpg">
+    </div>
+</body>
+</html>

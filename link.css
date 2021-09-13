@@ -1,0 +1,57 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+body
+{
+    font-size: 16pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar
+{
+    margin: 5px;
+    padding: 10px;
+    max-width: 100%;
+    height: auto;
+    background-color: rgb(229, 241, 60);
+}
+
+ul
+{
+    padding-left: 12px;
+    list-style: none;
+}
+
+a
+{
+    color: darkorange;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ a:link /*first stateof link,that is normal and unvisited */
+{
+    color: red;
+}
+
+a:visited /*second state of link,that has clicked and visited*/
+{
+    color: green;
+}
+
+a:hover /*third state of link, when mouse has been placed over it*/
+{
+    color: blue;
+    text-decoration: underline;
+    /* cursor: grab; */
+}
+
+a:active /*fourth state of link when it is clicked*/
+
+{
+    background-color: lightcoral;
+}

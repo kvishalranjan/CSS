@@ -1,0 +1,80 @@
+p
+{
+    background-color: aquamarine;
+    border: medium solid red;
+    color: blue;
+    font: 14pt 'Arial';
+    font-weight: bold;
+
+}
+
+p:hover
+{
+    color: rgb(235, 71, 21);
+    font: 24pt 'Arial';
+}
+
+#firstchild
+{
+    background-color: lightgreen;
+    border: medium solid blue;
+}
+
+#firstchild p
+{
+    background-color: lightyellow;
+    border: none;
+    color: purple;
+    font: 14pt 'Arial';
+    font-weight: bold;
+}
+
+#firstchild p:first-child
+{
+    background-color: lightcoral;
+    border: none;
+    color: red;
+}
+
+table
+{
+    text-align: center;
+    margin: 20px;
+    width: 600px;
+    height: 300px;
+    border: 1px solid red;
+    font-size: 14pt;
+    border-collapse: collapse;
+}
+
+th,td
+{
+    border-bottom: 1px solid blue;
+   
+}
+th
+{
+    background-color: cyan;
+    color: red;
+}
+tr:first-child
+{
+    background-color: cyan;
+    color: purple;
+}
+
+tr:nth-child(even)
+{
+    background-color: lightgreen;
+    color: blue;
+}
+tr:nth-child(odd)
+{
+    background-color: lightsalmon;
+    color: blue;
+}
+
+tr:hover
+{
+    font-weight: bold;
+}
